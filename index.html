@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/index.css" type="text/css" media="screen, projection">
+    <title>Gradiweb</title>
+  </head>
+  <body>
+    <header>
+        <div class="row">
+          <div class="col s12 m3 l4">
+            <div class="row">
+              <div class="col s12">
+                <div class="centrar-img-clima">
+                  <img src="img/clima.png" alt="" class="imagen-clima" id="climaBogotaImg">
+                </div>
+              </div>
+              <div class="col s12">
+                <h6 class="purple-text text-lighten-4 clima-bta" id="climaBogota">Clima</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m9 l8">
+            <div class="container">
+              <img src="img/fondo.jpg" alt="Snow">
+              <div class="centered">
+                <h4 class="purple-text text-lighten-4">Gradiweb</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <div class="contenido-total">
+      <div class="row">
+
+        <div class="col s12 m6 l3">
+          <div class="row">
+            <div class="clima-titulo">
+              <h4 class="purple-text text-lighten-4">3 days forecast</h4>
+            </div>
+
+            <div class="s12 tar-dias">
+              <div class="row">
+                <div class="col s8 titulo-dias">
+                  <h5 class="purple-text text-lighten-4" id="PrimerDiaFercha">Friday</h5>
+                </div>
+                <div class="col s4 img-dias">
+                  <img src="img/clima.png" alt="" id="climaBogotaPrimerImg">
+                </div>
+                <div class="col s12 estado-dias">
+                  <h6 class="purple-text text-lighten-4" id="EstadoPrimer">Clear</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="s12 tar-dias">
+              <div class="row">
+                <div class="col s8 titulo-dias">
+                  <h5 class="purple-text text-lighten-4" id="SegundoDiaFecha">Saturday</h5>
+                </div>
+                <div class="col s4 img-dias">
+                  <img src="img/clima.png" alt="" id="climaBogotaSegundoImg">
+                </div>
+                <div class="col s12 estado-dias">
+                  <h6 class="purple-text text-lighten-4" id="EstadoSegundo">Clear</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="s12 tar-dias">
+              <div class="row">
+                <div class="col s8 titulo-dias">
+                  <h5 class="purple-text text-lighten-4" id="TercerDiaFecha">Sunday</h5>
+                </div>
+                <div class="col s4 img-dias">
+                  <img src="img/clima.png" alt="" id="climaBogotaTerceroImg">
+                </div>
+                <div class="col s12 estado-dias">
+                  <h6 class="purple-text text-lighten-4" id="EstadoTercero">Clear</h6>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="col s12 m6 l3">
+          <div class="row">
+            <div class="lugares">
+              <h4 class="purple-text text-lighten-4">Place to visit</h4>
+            </div>
+            <div class="col s12 img-lugares">
+              <img src="img/lugares.jpg" alt="">
+            </div>
+            <div class="col s12 img-lugares">
+              <img src="img/lugares2.jpg" alt="">
+            </div>
+            <div class="col s12 img-lugares">
+              <img src="img/lugares3.jpg" alt="">
+            </div>
+            <div class="col s12 text-final">
+              <h5 class="purple-text text-lighten-4">Add another</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l3">
+          <div class="row">
+            <div class="opiniones">
+              <h4 class="purple-text text-lighten-4">Top reviews</h4>
+            </div>
+            <div class="col s12 container2">
+              <img src="img/coment1.jpg" alt="" style="width:100%;">
+              <div class="top-left">
+                <h6  class="purple-text text-lighten-4">I loved!</h6>
+              </div>
+            </div>
+            <div class="col s12 container2">
+              <img src="img/coment2.jpg" alt="" style="width:100%;">
+              <div class="top-left">
+                <h6  class="purple-text text-lighten-4">The best of the best!</h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col s12 m6 l3">
+          <div class="row">
+            <div class="otras-ciudades">
+              <h4 class="purple-text text-lighten-4">Weather in other cities</h4>
+            </div>
+
+            <div class="col s12">
+              <div class="card purple purple-text text-lighten-4">
+                <div class="card-image">
+                  <img src="img/paris.jpg">
+                  <span class="card-title">Paris City</span>
+                </div>
+                <div class="card-content">
+                  <p id="desParis">I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.</p>
+                  <img src="img/clima.png" alt="" class="img-stado-paris" id="climaParisIcon">
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12">
+              <div class="card purple purple-text text-lighten-4">
+                <div class="card-image">
+                  <img src="img/roma.jpg">
+                  <span class="card-title">Roma City</span>
+                </div>
+                <div class="card-content">
+                  <p id="desRoma">I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.</p>
+                  <img src="img/clima.png" alt="" class="img-stado-paris" id="climaRomaIcon">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
